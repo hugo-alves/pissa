@@ -29,7 +29,7 @@ export class FilmBase {
     public _id: string;
     public genre?: string;
     public title: string;
-    public year?: Number;
+    public year?: number;
     
     // Relations filmMaker
 	public filmMaker: FilmMaker | string;
